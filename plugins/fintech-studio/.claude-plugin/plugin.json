@@ -1,0 +1,15 @@
+{
+  "name": "fintech-studio",
+  "displayName": "Fintech Studio",
+  "version": "1.0.0",
+  "description": "Claude Code skills for fintech engineering: exact money maths in minor units, double-entry ledgers, Stripe / Razorpay / PayPal / Adyen integrations, webhook verification and idempotency, subscription billing, payment reconciliation, PCI DSS scope and KYC/AML engineering checklists.",
+  "author": {
+    "name": "Viprasol Tech",
+    "email": "support@viprasol.com",
+    "url": "https://viprasol.com"
+  },
+  "homepage": "https://github.com/Viprasol-Tech/claude-fintech-skills",
+  "repository": "https://github.com/Viprasol-Tech/claude-fintech-skills",
+  "license": "MIT",
+  "keywords": ["fintech", "payments", "stripe", "razorpay", "paypal", "adyen", "webhooks", "idempotency", "ledger", "double-entry", "subscriptions", "reconciliation", "pci-dss", "kyc", "aml", "claude-code-skills"]
+}

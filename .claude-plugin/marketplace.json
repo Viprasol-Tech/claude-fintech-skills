@@ -1,0 +1,17 @@
+{
+  "name": "claude-fintech-skills",
+  "description": "Free Claude Code skills for developers who build money software: exact money maths, double-entry ledgers, Stripe/Razorpay/PayPal integrations, webhook security, subscriptions, reconciliation, PCI DSS scope and KYC/AML flows.",
+  "owner": {
+    "name": "Viprasol Tech",
+    "url": "https://viprasol.com"
+  },
+  "plugins": [
+    {
+      "name": "fintech-studio",
+      "source": "./plugins/fintech-studio",
+      "description": "8 skills: money-math, ledger-design, payments-integration, webhook-security, subscription-billing, reconciliation, pci-scope and kyc-aml-flows, with tested money and reconciliation scripts.",
+      "category": "finance",
+      "tags": ["fintech", "payments", "stripe", "razorpay", "ledger", "pci-dss", "kyc", "aml", "reconciliation"]
+    }
+  ]
+}
