@@ -63,6 +63,10 @@ claude plugin install fintech-studio@claude-fintech-skills
 Skills are then available as `/fintech-studio:<skill>` and load automatically
 when your request matches.
 
+Want every Viprasol plugin? Add the [Viprasol marketplace](https://github.com/Viprasol-Tech/claude-plugins) once:
+`claude plugin marketplace add Viprasol-Tech/claude-plugins`, then
+`claude plugin install <plugin>@viprasol`.
+
 **Option B: installer** (copies the skills to `~/.claude/skills`)
 
 ```bash
