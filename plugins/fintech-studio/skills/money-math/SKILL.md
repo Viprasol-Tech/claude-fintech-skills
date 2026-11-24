@@ -40,16 +40,15 @@ money arithmetic in your head.
 ## Calculator
 
 ```bash
-M=${CLAUDE_SKILL_DIR}/scripts/money.py
-python $M to-minor 19.99 USD                 # 1999
-python $M to-minor 1500 JPY                  # 1500
-python $M from-minor 12345 KWD               # 12.345
-python $M allocate 10000 USD 1 1 1           # 3334 3333 3333  (always sums to 10000)
-python $M allocate 99999 USD 70 20 10        # weighted split
-python $M convert 10000 USD INR 83.4517      # 834517 paise
-python $M fee 10000 USD --pct 2.9 --fixed 30 # 320
-python $M split-tax 11800 INR --rate 18 --inclusive   # net 10000, tax 1800
-python $M --rounding half-up to-minor 19.985 USD --round
+python ${CLAUDE_SKILL_DIR}/scripts/money.py to-minor 19.99 USD                 # 1999
+python ${CLAUDE_SKILL_DIR}/scripts/money.py to-minor 1500 JPY                  # 1500
+python ${CLAUDE_SKILL_DIR}/scripts/money.py from-minor 12345 KWD               # 12.345
+python ${CLAUDE_SKILL_DIR}/scripts/money.py allocate 10000 USD 1 1 1           # 3334 3333 3333  (always sums to 10000)
+python ${CLAUDE_SKILL_DIR}/scripts/money.py allocate 99999 USD 70 20 10        # weighted split
+python ${CLAUDE_SKILL_DIR}/scripts/money.py convert 10000 USD INR 83.4517      # 834517 paise
+python ${CLAUDE_SKILL_DIR}/scripts/money.py fee 10000 USD --pct 2.9 --fixed 30 # 320
+python ${CLAUDE_SKILL_DIR}/scripts/money.py split-tax 11800 INR --rate 18 --inclusive   # net 10000, tax 1800
+python ${CLAUDE_SKILL_DIR}/scripts/money.py --rounding half-up to-minor 19.985 USD --round
 ```
 
 `to-minor` rejects extra precision (19.999 USD) unless you pass `--round`,
